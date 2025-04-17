@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Adam Kelly'
+theme = 'PaperMod'
+enableEmoji = true
+
+[params]
+    env = 'production'
+    socialIcons = [
+        { name = 'github', url = 'https://github.com/adammkelly' },
+        { name = 'linkedin', url = 'https://www.linkedin.com/in/adam-kelly-91a98bbb/' }
+    ]
+
+
+
+    [params.analytics]
+        [params.analytics.google]
+            SiteVerificationTag = "G-17G5CEV4HC"
+
+    [params.homeInfoParams]
+    Title = "Hi, I'm Adam :wave:"
+    Content = "I'm a software engineer who loves building cool stuff with code. Whether it's web apps, backend systems, or just automating the boring stuff, I'm all about solving problems and making things work better.\nRight now, I'm working on Linux network drivers but I am always learning something new or tinkering with side projects."
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    duplicateResourceFiles = false
+    [markup.goldmark.renderer]
+      hardWraps = true

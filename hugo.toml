@@ -13,9 +13,9 @@ enableEmoji = true
 
 
 
-    [params.analytics]
-        [params.analytics.google]
-            SiteVerificationTag = "G-17G5CEV4HC"
+[services]
+  [services.googleAnalytics]
+    id = "G-17G5CEV4HC"
 
     [params.homeInfoParams]
     Title = "Hi, I'm Adam :wave:"

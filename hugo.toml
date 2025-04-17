@@ -15,7 +15,7 @@ enableEmoji = true
 
 [services]
   [services.googleAnalytics]
-    id = "G-17G5CEV4HC"
+    id = "G-JEGNQJNDLV"
 
     [params.homeInfoParams]
     Title = "Hi, I'm Adam :wave:"
